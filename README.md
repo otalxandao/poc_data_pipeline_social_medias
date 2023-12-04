@@ -22,7 +22,8 @@ Integração com Data Warehouse:
 Os dados são enviados e armazenados diretamente no data warehouse.
 
 # Atualização no Power BI:
-## https://app.powerbi.com/groups/me/reports/186c56fc-e1d1-486b-aea8-3f2239274159?ctid=d9d9bd8b-3f34-4423-92f9-cfe85425165a&pbi_source=linkShare&bookmarkGuid=d2c407d6-fdb6-4862-a1c8-f37de601c3d9
+## https://app.powerbi.com/view?r=eyJrIjoiNDQ5MTdlMzAtMDhiMS00ZTUxLWE3N2UtNTU1ZjI5OTg1YTQ2IiwidCI6ImQ5ZDliZDhiLTNmMzQtNDQyMy05MmY5LWNmZTg1NDI1MTY1YSJ9 
+
 
 O Power BI é atualizado a cada 2 horas com os dados mais recentes do data warehouse.
 # Métricas Principais no Power BI:
