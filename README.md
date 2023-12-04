@@ -22,7 +22,7 @@ Integração com Data Warehouse:
 Os dados são enviados e armazenados diretamente no data warehouse.
 
 # Atualização no Power BI:
-## https://app.powerbi.com/view?r=eyJrIjoiNDQ5MTdlMzAtMDhiMS00ZTUxLWE3N2UtNTU1ZjI5OTg1YTQ2IiwidCI6ImQ5ZDliZDhiLTNmMzQtNDQyMy05MmY5LWNmZTg1NDI1MTY1YSJ9 
+## Link dashbord: https://app.powerbi.com/view?r=eyJrIjoiNDQ5MTdlMzAtMDhiMS00ZTUxLWE3N2UtNTU1ZjI5OTg1YTQ2IiwidCI6ImQ5ZDliZDhiLTNmMzQtNDQyMy05MmY5LWNmZTg1NDI1MTY1YSJ9 
 
 
 O Power BI é atualizado a cada 2 horas com os dados mais recentes do data warehouse.
