@@ -22,12 +22,19 @@ Integração com Data Warehouse:
 Os dados são enviados e armazenados diretamente no data warehouse.
 
 # Atualização no Power BI:
+## https://app.powerbi.com/groups/me/reports/186c56fc-e1d1-486b-aea8-3f2239274159?ctid=d9d9bd8b-3f34-4423-92f9-cfe85425165a&pbi_source=linkShare&bookmarkGuid=d2c407d6-fdb6-4862-a1c8-f37de601c3d9
 
 O Power BI é atualizado a cada 2 horas com os dados mais recentes do data warehouse.
-Métricas Principais no Power BI:
+# Métricas Principais no Power BI:
+
 Engajamento por Post: Mede o nível de envolvimento por cada post publicado.
+
 Quantidade de Usuários: Total de usuários registrados.
+
 Usuários que são Patronos: Contagem de usuários que são patronos.
+
 Quantidade de Votos e Comentários por Post: Analisa a interação dos usuários através de votos e comentários em cada post.
+
 Escore de Envolvimento: Métrica que envolve uma pontuação específica.
+
 Quantidade de Posts por Dia: Estatística sobre o número de posts publicados diariamente.
