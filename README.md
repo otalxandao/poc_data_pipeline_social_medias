@@ -22,7 +22,6 @@ Transformar e estruturar dados de interações em redes sociais para análise de
 
 ## 📁 Estrutura do Projeto
 
-.
 ├── etl_pipeline.ipynb
 ├── data/
 │   ├── comments_data.xlsx
