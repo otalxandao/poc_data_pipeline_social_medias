@@ -22,6 +22,8 @@ Transformar e estruturar dados de interações em redes sociais para análise de
 
 ## 📁 Estrutura do Projeto
 
+```bash
+📦 poc_data_pipeline_social_medias
 ├── etl_pipeline.ipynb
 ├── data/
 │   ├── comments_data.xlsx
@@ -34,7 +36,7 @@ Transformar e estruturar dados de interações em redes sociais para análise de
 │   ├── posts_comments.xlsx
 │   ├── posts_data.json
 │   └── users_data.json
-📄 etl_pipeline.ipynb
+
 
 ## 🔄 Etapas do Pipeline
 
