@@ -22,17 +22,19 @@ Transformar e estruturar dados de interações em redes sociais para análise de
 
 ## 📁 Estrutura do Projeto
 
-📂 data/
-├── comments_data.xlsx
-├── posts_options.xlsx
-├── posts_data.xlsx
-├── translation.xlsx
-├── user.xlsx
-├── votes.xlsx
-📂 Json/
-├── posts_comments.xlsx
-├── posts_data.json
-├── users_data.json
+.
+├── etl_pipeline.ipynb
+├── data/
+│   ├── comments_data.xlsx
+│   ├── posts_data.xlsx
+│   ├── posts_options.xlsx
+│   ├── translation.xlsx
+│   ├── user.xlsx
+│   └── votes.xlsx
+├── json/
+│   ├── posts_comments.xlsx
+│   ├── posts_data.json
+│   └── users_data.json
 📄 etl_pipeline.ipynb
 
 ## 🔄 Etapas do Pipeline
