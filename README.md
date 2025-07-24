@@ -36,7 +36,7 @@ Transformar e estruturar dados de interações em redes sociais para análise de
 │   ├── posts_comments.xlsx
 │   ├── posts_data.json
 │   └── users_data.json
-
+---
 
 ## 🔄 Etapas do Pipeline
 
