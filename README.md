@@ -1,41 +1,66 @@
-# Descrição do Fluxo de Dados e Análise
-## Objetivo:
-Este projeto visa analisar e visualizar dados de redes sociais para obter insights sobre engajamento, usuários e interações com posts.
+# 🔄 Pipeline de Dados com Power BI e Azure
 
-# Etapas do Processo:
-Análise de Padrões em Dados JSON:
+Este projeto é uma Prova de Conceito (PoC) para uma entrevista técnica. Ele demonstra a construção de um pipeline de dados completo, partindo de arquivos JSON até a visualização em dashboards Power BI, passando por tratamento com Python, ingestão via Azure Data Factory e persistência em Data Warehouse.
 
-Utilizei uma visualização JSON para identificar os padrões de arrays e a estrutura de tabelas nos dados.
+---
 
-# Estruturação dos Dados:
+## 🧠 Objetivo
 
-Criei uma nova estrutura para os dados, abrindo cada JSON e organizando-os para análise.
-Implementação do Código:
+Transformar e estruturar dados de interações em redes sociais para análise de engajamento, usuários e padrões de comportamento.
 
-O código Python está contido no arquivo CÓDIGO.ipynb.
+---
 
-# Execução do Código:
+## ⚙️ Tecnologias Utilizadas
 
-O código é projetado para rodar no ambiente Databricks, sendo acionado pelo Azure DataFactory.
-Integração com Data Warehouse:
+- **Python** (ETL com Pandas)
+- **Databricks** (execução dos notebooks)
+- **Azure Data Factory** (orquestração)
+- **SQL Data Warehouse**
+- **Power BI** (visualização de dados)
 
-Os dados são enviados e armazenados diretamente no data warehouse.
+---
 
-# Atualização no Power BI:
-## Link dashbord: https://app.powerbi.com/view?r=eyJrIjoiNDQ5MTdlMzAtMDhiMS00ZTUxLWE3N2UtNTU1ZjI5OTg1YTQ2IiwidCI6ImQ5ZDliZDhiLTNmMzQtNDQyMy05MmY5LWNmZTg1NDI1MTY1YSJ9 
+## 📁 Estrutura do Projeto
 
+📂 data/
+├── comments_data.xlsx
+├── posts_options.xlsx
+├── posts_data.xlsx
+├── translation.xlsx
+├── user.xlsx
+├── votes.xlsx
+📂 Json/
+├── posts_comments.xlsx
+├── posts_data.json
+├── users_data.json
+📄 etl_pipeline.ipynb
 
-O Power BI é atualizado a cada 2 horas com os dados mais recentes do data warehouse.
-# Métricas Principais no Power BI:
+## 🔄 Etapas do Pipeline
 
-Engajamento por Post: Mede o nível de envolvimento por cada post publicado.
+1. **Carregamento** dos arquivos JSON e Excel.
+2. **Transformação** dos dados em tabelas normalizadas.
+3. **Envio para Data Warehouse**.
+4. **Visualização** em Power BI com atualização a cada 2 horas.
 
-Quantidade de Usuários: Total de usuários registrados.
+---
 
-Usuários que são Patronos: Contagem de usuários que são patronos.
+## 📊 Link do Dashboard
 
-Quantidade de Votos e Comentários por Post: Analisa a interação dos usuários através de votos e comentários em cada post.
+[🔗 Acessar Power BI](https://app.powerbi.com/view?r=eyJrIjoiNDQ5MTdlMzAtMDhiMS00ZTUxLWE3N2UtNTU1ZjI5OTg1YTQ2IiwidCI6ImQ5ZDliZDhiLTNmMzQtNDQyMy05MmY5LWNmZTg1NDI1MTY1YSJ9)
 
-Escore de Envolvimento: Métrica que envolve uma pontuação específica.
+---
 
-Quantidade de Posts por Dia: Estatística sobre o número de posts publicados diariamente.
+## 📈 Métricas Principais
+
+- Engajamento por Post
+- Total de Usuários
+- Usuários que são Patronos
+- Interações por Post (comentários e votos)
+- Pontuação de Envolvimento
+- Quantidade de Posts por Dia
+
+---
+
+## 📌 Observações
+
+Este projeto foi desenvolvido em um contexto técnico simulado, mas representa uma arquitetura realista para ingestão e análise de dados em escala.
